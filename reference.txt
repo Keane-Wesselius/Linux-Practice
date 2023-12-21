@@ -1,0 +1,36 @@
+pwd - Print working directory
+
+ls - list
+   Useful Options:
+	-l: long list, shows file permissions, as well as size and creation dates
+	-h: human readable, shows the size in kibibytes 1k = 1024
+	--si:  , shows size in kilobytes 1k = 1000
+
+chmod - change mode
+   Useful Options:
+	- removes mods
+	+ adds mods
+	r = read
+	w = write
+	x = execute
+
+	u = user(owner)
+	o = other
+	g = group
+	a = all
+
+	-(---)(---)(---)
+	-(u)(g)(o)
+
+	4 = read
+	2 = write
+	1 = execute
+
+	you can also chmod 764
+        7 = (rwx)(---)(---)
+	6 = (---)(rw-)(---)
+	4 = (---)(---)(r--)
+
+	think about this odd numbers get execution privledges, little numbers cant read, and 7 is full permissions
+
+
