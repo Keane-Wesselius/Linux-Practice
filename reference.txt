@@ -34,3 +34,14 @@ chmod - change mode
 	think about this odd numbers get execution privledges, little numbers cant read, and 7 is full permissions
 
 
+cd - change directory
+   Useful options
+	none = go to home directory 
+	. = current directory
+	.. = previous directory
+	
+
+/ = execute
+
+
+
