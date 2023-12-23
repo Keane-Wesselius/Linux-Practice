@@ -2,10 +2,10 @@
 
 echo Todays date is `date`
 
-x=10
-y=5
+read -p 'Type Something: ' input
+read -sp 'Secret Something: ' secret_input
 
-echo $x
-echo $y
-
+echo \n
+echo Something is $input
+echo Your secret is $secret_input
 
